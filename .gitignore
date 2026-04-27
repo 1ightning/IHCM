@@ -9,5 +9,3 @@ target/
 *.pem
 *.key
 .env
-
-*.log
