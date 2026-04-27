@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+    \centering
+    \caption{Overall Q-Error comparison on \texttt{D2} and \texttt{D5}}
+    \label{tab:overall_qerror_comparison}
+    \small
+    \setlength{\tabcolsep}{3pt}
+    \begin{tabular}{@{}llrrrrr@{}}
+        \toprule
+        Dataset & Method & Median & Mean & P90 & P95 & Max \\
+        \midrule
+        \texttt{D2} & \texttt{Proposed} & 1.040 & 1.055 & 1.115 & 1.153 & 1.510 \\
+        \texttt{D2} & \texttt{EW-Hist} & 1.162 & 1.293 & 1.700 & 2.131 & 5.045 \\
+        \texttt{D2} & \texttt{ED-Hist} & 1.239 & 1.451 & 1.962 & 2.721 & 9.471 \\
+        \texttt{D2} & \texttt{Indep.} & 1.826 & 1.954 & 2.899 & 3.359 & 3.991 \\
+        \midrule
+        \texttt{D5} & \texttt{Proposed} & 1.136 & 1.169 & 1.348 & 1.440 & 1.997 \\
+        \texttt{D5} & \texttt{EW-Hist} & 5.914 & 17.183 & 39.253 & 67.602 & 345.928 \\
+        \texttt{D5} & \texttt{ED-Hist} & 6.373 & 22.184 & 47.932 & 88.197 & 424.694 \\
+        \texttt{D5} & \texttt{Indep.} & 18.891 & 27.143 & 57.588 & 79.121 & 220.881 \\
+        \bottomrule
+    \end{tabular}
+\end{table}

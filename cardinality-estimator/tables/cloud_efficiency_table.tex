@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+    \centering
+    \caption{Efficiency comparison on \texttt{D2} and \texttt{D5}}
+    \label{tab:efficiency_comparison}
+    \small
+    \setlength{\tabcolsep}{3pt}
+    \begin{tabular}{@{}llrrrr@{}}
+        \toprule
+        Dataset & Method & Fit(ms) & Infer($\mu$s/q) & QPS & Heap \\
+        \midrule
+        \texttt{D2} & \texttt{Proposed} & 262.71 & 19.64 & 50903.91 & 128.3 KB \\
+        \texttt{D2} & \texttt{EW-Hist} & 3.98 & 3.15 & 317987.44 & 2.1 KB \\
+        \texttt{D2} & \texttt{ED-Hist} & 20.82 & 1.03 & 971469.56 & 1.8 KB \\
+        \texttt{D2} & \texttt{Indep.} & 0.02 & 1.32 & 756340.97 & 0 B \\
+        \midrule
+        \texttt{D5} & \texttt{Proposed} & 170.17 & 30.98 & 32278.21 & 394.1 KB \\
+        \texttt{D5} & \texttt{EW-Hist} & 7.45 & 0.94 & 1066433.47 & 4.2 KB \\
+        \texttt{D5} & \texttt{ED-Hist} & 27.32 & 0.87 & 1155299.17 & 4.2 KB \\
+        \texttt{D5} & \texttt{Indep.} & 0.00 & 0.49 & 2030772.98 & 0 B \\
+        \bottomrule
+    \end{tabular}
+\end{table}

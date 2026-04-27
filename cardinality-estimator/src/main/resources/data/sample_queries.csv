@@ -1,0 +1,6 @@
+name,temperature_min,temperature_max,humidity_min,humidity_max,pressure_min,pressure_max,vibration_min,vibration_max
+q1,20,30,50,80,1010,1030,0.2,0.8
+q2,25,35,40,70,1000,1025,0.1,0.6
+q3,15,25,60,90,1020,1040,0.3,0.9
+q4,28,38,30,60,1005,1020,0.0,0.5
+q5,18,28,70,100,1015,1035,0.4,1.0

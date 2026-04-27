@@ -1,0 +1,13 @@
+target/
+*.class
+*.jar
+
+.idea/
+.vscode/
+.DS_Store
+
+*.pem
+*.key
+.env
+
+*.log
